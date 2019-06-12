@@ -1,11 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`test de snapshot Excepcion de test del snapshot 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "Alejandro Gonzalez",
+}
+`;
+
 exports[`test de snapshot Snapshot 1`] = `
 Object {
   "gender": "Male",
   "id": 1,
   "name": "Rick Sanches",
   "species": "Human",
-  "status": "Alive",
+  "status": "ASSSS",
+}
+`;
+
+exports[`test de snapshot Test de snapshot para fallar test 1`] = `
+Object {
+  "createAt": 2019-06-12T02:55:20.165Z,
+  "id": 10,
 }
 `;
