@@ -10,5 +10,8 @@ describe('Prueba de conceptos de arrays ', () => {
         expect(arrayColors()).not.toContain('Prueba');
     });
 
+    test('Contiene un elemento', () => {
+        expect(arrayColors()).toHaveLength(5);
+    });
 });
 
